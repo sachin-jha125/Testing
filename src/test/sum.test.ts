@@ -16,7 +16,7 @@ describe('POST /sum', () => {
     // })
    it("should sum add 2 numbers",async()=>{
     const {status,body} = await request(app).post("/sum").send({
-        a:2,
+        a:1,
         b:2
     });
 
