@@ -8,6 +8,6 @@ echo "- Database is ready!"
 
 npx prisma migrate dev --name init 
 
-npm run test
+npm run test || exit 1
 
 docker-compose down
